@@ -10,12 +10,12 @@ int main() {
    scanf(" %c", &oper);
    int result = 0;
    switch(oper) {
-   case '+':
-         result = a+b;
-		 break;
    case '-':
-		 result = a-b;
-		 break;
+         result = a-b;
+	 break;
+   case '+':
+	 result = a+b;
+	 break;
    }
    printf("result: %d\n", result);
    return 0;
